@@ -17,7 +17,7 @@ export default function Product({ product }) {
       <PriceTag>{formatMoney(product.price)}</PriceTag>
       <p>{product.description}</p>
 
-      { //TODO add buttons to edit and delete items }
+      {/* { TODO add buttons to edit and delete items } */}
     </ItemStyles>
   );
 }
